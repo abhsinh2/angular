@@ -1,0 +1,31 @@
+<!--
+<div class="container">
+    <br>
+	<div class="row">
+        <div class="col-md-4">
+            <a routerLink="/designer" routerLinkActive="active" class="btn btn-default btn-lg btn-block btn-huge">Design</a>
+        </div>
+        <div class="col-md-4">
+            <a routerLink="#deployer" routerLinkActive="active" class="btn btn-default btn-lg btn-block btn-huge">Deploy</a>
+        </div>
+        <div class="col-md-4">
+            <a routerLink="#monitor" routerLinkActive="active" class="btn btn-default btn-lg btn-block btn-huge">Monitor</a>
+        </div>
+	</div>
+</div>
+-->
+
+<div class="container">
+    <br>
+	<div class="row">
+        <div class="col-md-4">
+            <a (click)="gotoDesigner()" class="btn btn-default btn-lg btn-block btn-huge">Design</a>
+        </div>
+        <div class="col-md-4">
+            <a (click)="gotoDeployer()" class="btn btn-default btn-lg btn-block btn-huge">Deploy</a>
+        </div>
+        <div class="col-md-4">
+            <a (click)="gotoMonitor()" class="btn btn-default btn-lg btn-block btn-huge">Monitor</a>
+        </div>
+	</div>
+</div>
